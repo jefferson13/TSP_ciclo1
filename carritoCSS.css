@@ -1,0 +1,8 @@
+body{
+	background: url(Esquema/tapiz.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	font-family: 'Akronim', cursive;
+	color:black;
+	font-size:1.0em;
+	overflow: auto;
+}

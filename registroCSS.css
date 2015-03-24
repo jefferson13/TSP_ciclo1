@@ -1,0 +1,52 @@
+body{
+	height: 100%;
+	width: 100%;
+	background: url(Esquema/noche.jpg) 0 0 no-repeat;	
+	align=center;
+	background-size: 100% 100%;
+}
+
+#registro{
+	float:left;
+	height: 900px;
+	width: 1100px;
+	border: 1px solid transparent;
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	background:	url(Esquema/sakura.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+fieldset {
+	height: 600px;
+	width: 350px;
+	border:6px groove transparent; /* Borde */
+	background:transparent; /* Color de fondo */
+	color:gold; /* Color del texto de todo el contenido */
+	margin-top: 20%;
+	margin-left: 40%;
+	margin-right: 10%;
+	line-height:30px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 1px transparent;
+	font-family: 'Akronim', cursive;
+	font-size:1.0em;
+	overflow: auto;
+}
+
+img{
+	border-radius: 40px;
+	height: 140px;
+	width: 140px;
+	overflow: auto;
+}
+
+legend {
+	text-align:left;
+	font-weight:bold; /* Estilo de la fuente del título */
+	color:#61380B; /* Color del título */
+	font-family: 'Akronim', cursive;
+	font-size:2.0em;
+}

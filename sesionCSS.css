@@ -1,0 +1,42 @@
+#login{
+	float:left;
+	height: 370px;
+	width: 500px;
+	border: 1px solid transparent;
+	margin-top: 1px;
+	margin-left: 5%;
+	position: absolute;
+	top: 24%; /* Buscamos el centro horizontal (relativo) del navegador */
+	left: 24%; /* Buscamos el centro vertical (relativo) del navegador */
+	background: url(Esquema/azul.jpg);
+	border-radius: 100px;
+	box-shadow: 0px 1px 1px transparent;
+	font-family: 'Akronim', cursive;
+	font-size:1.0em;
+	overflow: auto;
+	background-size: 100% 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	background: url(Esquema/control3.jpg) 0 0 no-repeat;
+
+}
+
+fieldset {
+	margin-top: 10%;
+	margin-left: 14%;
+	border:6px groove transparent; /* Borde */
+	background:transparent; /* Color de fondo */
+	color:white; /* Color del texto de todo el contenido */
+	overflow: auto;
+}
+
+legend {
+	text-align:left; 
+	font-weight:bold; /* Estilo de la fuente del título */
+	color:white; /* Color del título */
+	font-family: 'Akronim', cursive;
+	font-size:2.0em;
+}

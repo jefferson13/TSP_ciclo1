@@ -1,0 +1,73 @@
+header[name="superior"]{
+	width: 99%;
+	height: 250px;
+	border: 1px solid transparent;
+	margin-top: 1%;
+	background:	url(../Esquema\\info2.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+iframe{
+	float: left;
+	height: 400px;
+	width: 100%;
+	border: 1px solid transparent;
+}
+
+section{
+	float: left;
+	height: 100%;
+	width: 68%;
+	border: solid 1px transparent;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 3px;
+	margin-bottom: 1%;
+	font-family: 'Akronim', cursive;
+	font-size:1.0em;
+	overflow: auto;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	background: url(../Esquema\\tapiz.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+aside[name="izquierdo"]{
+	float: left;
+	height: 1300px;
+	width: 15%;
+	border: 1px solid transparent;
+	margin-top: 3px;
+	background:	url(../Esquema\\ubuntu1.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	color:white;
+	border-radius: 20px;
+	box-shadow: 7px 10px 2px black;
+}
+
+aside[name="derecho"]{
+	float: left;
+	height: 1300px;
+	width: 15%;
+	border: 1px solid transparent;
+	margin-top: 3px;
+	background:	url(../Esquema\\ubuntu2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	color:white;
+	border-radius: 20px;
+	box-shadow: -7px 10px 2px black;
+}
+
+
+footer[name="pie"]{
+	float: left;
+	width: 99%;
+	height: 250px;
+	border: 1px solid transparent;
+	margin-top: 1%;
+	background:	url(../Esquema\\yuno2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}

@@ -1,0 +1,107 @@
+header[name="superior"]{
+	width: 99%;
+	height: 250px;
+	border: 1px solid transparent;
+	margin-top: 1%;
+	background:	url(..\\Esquema\\ikaros_header.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	background: url(..\\Esquema\\tapiz.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+#login{
+	float:left;
+	height: 70%;
+	width: 40%;
+	border: 1px solid transparent;
+	margin-top: 1px;
+	margin-left: 5%;	
+}
+
+fieldset [name="login"]{
+	border:1px groove transparent; /* Borde */
+	background:transparent; /* Color de fondo */
+	color:#000; /* Color del texto de todo el contenido */
+}
+
+legend [name="login"]{
+	text-align:left; 
+	font-weight:bold; /* Estilo de la fuente del título */
+	color:#61380B; /* Color del título */
+}
+
+aside[name="izquierdo"]{
+	float: left;
+	height: 1000px;
+	width: 10%;
+	border: 1px solid transparent;
+	margin-top: 3px;
+	background:	url(..\\Esquema\\ubuntu1.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	color:white;
+	border-radius: 20px;
+	box-shadow: 7px 10px 2px black;
+}
+
+aside[name="derecho"]{
+	float: left;
+	height: 1000px;
+	width: 10%;
+	border: 1px solid transparent;
+	margin-top: 3px;
+	background:	url(..\\Esquema\\ubuntu2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	color:white;
+	border-radius: 20px;
+	box-shadow: -7px 10px 2px black;
+}
+
+section{
+	float: left;
+	height: 100%;
+	width: 75%;
+	border: solid 1px transparent;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 3px;
+	margin-bottom: 1%;
+}
+
+fieldset [name="videojuego"]{
+	border:1px groove red; /* Borde */
+	background:transparent; /* Color de fondo */
+	color:#000; /* Color del texto de todo el contenido */
+}
+
+legend [name="videojuego"]{
+	text-align:left; 
+	font-weight:bold; /* Estilo de la fuente del título */
+	color:#61380B; /* Color del título */
+}
+
+article[name="videojuego"]{
+	float: left;
+	color:red;
+	height: 100%;
+	width: 100%;
+	border: solid 1px red;
+	margin-left: 5px;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+footer[name="pie"]{
+	float: left;
+	width: 99%;
+	height: 280px;
+	border: 1px solid transparent;
+	margin-top: 1%;
+	background:	url(..\\Esquema\\yuno2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
